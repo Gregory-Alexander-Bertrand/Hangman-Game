@@ -52,7 +52,6 @@ function updateWrongLettersEl() {
     //Check loss
     if (wrongLetters.length === figureParts.length) {
         finalMessage.innerText = 'Sorry bud, you lost.';
-        finalMessageRevealWord.innerText = `...the word was: ${selectedWord}`;
         popup.style.display = 'flex';
 
         playable = false;
